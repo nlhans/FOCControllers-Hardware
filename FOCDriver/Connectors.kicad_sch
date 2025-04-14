@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "57f2219b-cae5-4a10-92e2-f5c35139319a")
+	(paper "A4")
+	(lib_symbols)
+	(text "3.3VDD Power Budget:\nSTM32: 46.33mA\n2x LED: 4mA\n2x AS5600: 2x 7mA\nOR\n2x TLE5012B: 2x 16mA\nTOTAL: 82mA\n\n(12-3.3) * 0.082 = 0.7W\n12V * 0.082 = 1W\n\n3.3VAA Power Budget:\n2x Quad Opamp: TLV9154, 3mA\n1x Dual Opamp, LM358, 0.2mA\nSTM32 VDDA: 1mA\n2x 10k potentiometer: 0.7uA\n5mA?\n\n(12-3.3)*5mA=43mW"
+		(exclude_from_sim no)
+		(at 247.904 40.386 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0023670e-5ce9-49ca-a573-bebc24712d6e")
+	)
+)

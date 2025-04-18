@@ -4951,16 +4951,6 @@
 				(justify right)
 			)
 		)
-		(pin "TIM2_CH2" input
-			(at 74.93 57.15 0)
-			(uuid "57a64b17-a405-41ff-ae5d-b9c2635b7ef7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C1_SCL" input
 			(at 33.02 41.91 180)
 			(uuid "9683811a-5e44-4741-85fd-632f1a499875")
@@ -5014,46 +5004,6 @@
 		(pin "ADC1_INP3" input
 			(at 74.93 120.65 0)
 			(uuid "eca8cd54-f225-465e-bc96-f5048953937c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TIM4_CH1" input
-			(at 74.93 80.01 0)
-			(uuid "0fdf02c3-23ce-48fa-9f9b-f05676ed813a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TIM4_CH2" input
-			(at 74.93 82.55 0)
-			(uuid "b3396911-016e-4caa-9a48-8440a5749e4a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TIM4_CH3" input
-			(at 74.93 85.09 0)
-			(uuid "cebc0886-efc4-481c-a937-ea47df208380")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TIM4_CH4" input
-			(at 74.93 87.63 0)
-			(uuid "db2992c1-5c9c-454b-a3c8-351cd0e81a44")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,16 +5124,6 @@
 		(pin "ADC2_INP7" input
 			(at 74.93 135.89 0)
 			(uuid "f524039b-d3e2-4fa5-83c6-6657d10aa243")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TIM2_CH1" input
-			(at 74.93 54.61 0)
-			(uuid "38a5e826-9ed0-45ea-8fc8-66d50d1a3c6d")
 			(effects
 				(font
 					(size 1.27 1.27)

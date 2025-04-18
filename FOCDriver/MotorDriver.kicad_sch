@@ -2388,6 +2388,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 96.52 49.53)
+		(end 149.86 77.47)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c1123da-f7aa-4350-9175-ad3ec0df4546)
+	)
+	(text "50V"
+		(exclude_from_sim no)
+		(at 227.076 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "137220d9-2830-40c2-9bfe-335af6479d44")
+	)
 	(text "Angle Sensor: \n\nTLI5012B - 48us update time (spi)\nAS5600 - 150us update time (i2c)"
 		(exclude_from_sim no)
 		(at 66.548 18.542 0)
@@ -2397,6 +2419,106 @@
 			)
 		)
 		(uuid "4175df2e-61ad-408a-b3ab-d59a1227f09c")
+	)
+	(text "6V3"
+		(exclude_from_sim no)
+		(at 135.89 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4680adc8-1ac0-47a7-a85c-bd2bad240877")
+	)
+	(text "16V"
+		(exclude_from_sim no)
+		(at 207.772 72.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c6c2434-fff5-4853-9ced-e86332d0a349")
+	)
+	(text "50V"
+		(exclude_from_sim no)
+		(at 258.572 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7192caa9-e043-43d0-bd56-493bc1242fac")
+	)
+	(text "50V"
+		(exclude_from_sim no)
+		(at 207.772 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89ed1482-8a6f-4ebb-a45b-5ffe95fcfbfe")
+	)
+	(text "50V"
+		(exclude_from_sim no)
+		(at 268.732 68.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9584cdb3-9b1b-4a3f-accb-4e0aa2d6e629")
+	)
+	(text "6V3"
+		(exclude_from_sim no)
+		(at 161.798 130.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96d4053e-702c-4c95-ab73-c5efd1eecd1c")
+	)
+	(text "6V3"
+		(exclude_from_sim no)
+		(at 117.348 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4686438-724c-4740-aebb-04023dd6d95e")
+	)
+	(text "50V"
+		(exclude_from_sim no)
+		(at 238.252 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4b03f38-ccb8-477a-b981-12e8ab4a9304")
+	)
+	(text "This component is only placed for Motor channel 1!"
+		(exclude_from_sim no)
+		(at 122.936 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dcf139fa-c3fa-4142-a5db-186d278b3db9")
+	)
+	(text "50V"
+		(exclude_from_sim no)
+		(at 248.412 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8b2038c-ef28-4d77-9a4a-3e219968035f")
 	)
 	(junction
 		(at 77.47 121.92)
@@ -2703,16 +2825,16 @@
 		(uuid "30f94244-e933-4c8e-a299-a31028f08d78")
 	)
 	(no_connect
-		(at 200.66 116.84)
-		(uuid "41666ff6-44fc-4652-a8e2-aa2fc208d5ae")
-	)
-	(no_connect
 		(at 200.66 135.89)
 		(uuid "42f411b4-8dd4-43f3-a588-83dd23791679")
 	)
 	(no_connect
 		(at 200.66 146.05)
 		(uuid "86c07cf2-94ac-4246-9c65-b0b0a4fb67e1")
+	)
+	(no_connect
+		(at 200.66 118.11)
+		(uuid "e8b105bb-8b82-48c3-bfc4-1387c983426c")
 	)
 	(wire
 		(pts
@@ -4715,7 +4837,7 @@
 		(uuid "44e59d1c-d1b8-418a-a582-8fca52202b4a")
 	)
 	(label "MTR_AVDD"
-		(at 144.78 58.42 0)
+		(at 157.48 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5549,7 +5671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:Nice_0805C"
+		(property "Footprint" "Footprints:Nice_0603C"
 			(at 113.9952 68.58 0)
 			(effects
 				(font
@@ -6639,7 +6761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:Nice_0805C"
+		(property "Footprint" "Footprints:Nice_0603C"
 			(at 140.0048 68.58 0)
 			(effects
 				(font
@@ -6706,7 +6828,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "470R"
 			(at 55.88 49.53 90)
 			(effects
 				(font

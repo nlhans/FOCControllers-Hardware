@@ -65188,17 +65188,6 @@
 		(uuid "faed7302-bb42-4a0f-bdd9-1df23067bcdc")
 	)
 	(gr_rect
-		(start 84.6 77.6)
-		(end 94.1 82.1)
-		(stroke
-			(width 0.00001)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Mask")
-		(uuid "226ef697-8005-4363-a643-f9d016287ed1")
-	)
-	(gr_rect
 		(start 86.5 60.8)
 		(end 92.6 64.9)
 		(stroke

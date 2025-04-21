@@ -4921,7 +4921,7 @@
 	)
 	(hierarchical_label "INLC"
 		(shape input)
-		(at 166.37 106.68 180)
+		(at 166.37 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5053,7 +5053,7 @@
 	)
 	(hierarchical_label "INLA"
 		(shape input)
-		(at 166.37 91.44 180)
+		(at 166.37 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5097,7 +5097,7 @@
 	)
 	(hierarchical_label "INHC"
 		(shape input)
-		(at 166.37 109.22 180)
+		(at 166.37 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5130,7 +5130,7 @@
 	)
 	(hierarchical_label "INHB"
 		(shape input)
-		(at 166.37 101.6 180)
+		(at 166.37 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5174,7 +5174,7 @@
 	)
 	(hierarchical_label "INHA"
 		(shape input)
-		(at 166.37 93.98 180)
+		(at 166.37 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5185,7 +5185,7 @@
 	)
 	(hierarchical_label "INLB"
 		(shape input)
-		(at 166.37 99.06 180)
+		(at 166.37 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)

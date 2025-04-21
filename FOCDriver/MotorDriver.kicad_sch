@@ -2767,6 +2767,12 @@
 		(uuid "c8e0eaab-5266-48e7-9a47-1e7b271f5ca8")
 	)
 	(junction
+		(at 157.48 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0ea3e72-b034-47fb-ba6c-f1ac6213c65f")
+	)
+	(junction
 		(at 203.2 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4648,6 +4654,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 123.19) (xy 157.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa9e2fb-6920-467d-a638-f47f256188d1")
+	)
+	(wire
+		(pts
 			(xy 115.57 132.08) (xy 115.57 134.62)
 		)
 		(stroke
@@ -4826,16 +4842,6 @@
 		)
 		(uuid "19ccb46b-2ad4-4747-b6d5-076f8d07fda1")
 	)
-	(label "MTR_VREF"
-		(at 157.48 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44e59d1c-d1b8-418a-a582-8fca52202b4a")
-	)
 	(label "MTR_AVDD"
 		(at 157.48 58.42 0)
 		(effects
@@ -4894,6 +4900,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "MTR_VREF"
+		(shape input)
+		(at 154.94 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2f6f59a-16ba-4037-ba3e-c6329ad79b50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.702 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)

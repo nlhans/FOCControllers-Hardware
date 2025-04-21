@@ -11223,6 +11223,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 176.53) (xy 367.03 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e2565f-b76d-492a-8566-7b771876df88")
+	)
+	(wire
+		(pts
 			(xy 318.77 240.03) (xy 318.77 242.57)
 		)
 		(stroke
@@ -12283,6 +12293,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 173.99) (xy 364.49 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a98751-8343-4848-ad03-5ba9186a182a")
+	)
+	(wire
+		(pts
 			(xy 369.57 97.79) (xy 364.49 97.79)
 		)
 		(stroke
@@ -12760,6 +12780,16 @@
 			(type default)
 		)
 		(uuid "ca50a010-9727-4d8a-8365-c34e47dfdc73")
+	)
+	(wire
+		(pts
+			(xy 367.03 171.45) (xy 364.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4030d1-c440-402a-925d-01e816c5ad7e")
 	)
 	(wire
 		(pts
@@ -16866,6 +16896,136 @@
 			(project "FOCDriver"
 				(path "/dc046988-c317-47ca-93b7-9d067843b2a9/6e269f1e-efea-43c6-a43c-5fada8e8e8c4"
 					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 367.03 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ea0be73-d915-43e8-ae66-363464ac7b68")
+		(property "Reference" "TP79"
+			(at 373.38 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 370.332 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:TP_0.6mm"
+			(at 367.03 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 367.03 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bf6325b-f191-49f6-b3b2-0455a3a07bf5")
+		)
+		(instances
+			(project "FOCDriver"
+				(path "/dc046988-c317-47ca-93b7-9d067843b2a9/6e269f1e-efea-43c6-a43c-5fada8e8e8c4"
+					(reference "TP79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 367.03 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31b3c7c3-0d7f-4e05-a7a2-cadd3e57c8a1")
+		(property "Reference" "TP78"
+			(at 373.38 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 370.332 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:TP_0.6mm"
+			(at 367.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 367.03 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "777e15ec-167f-411d-9083-e608cc4a76f7")
+		)
+		(instances
+			(project "FOCDriver"
+				(path "/dc046988-c317-47ca-93b7-9d067843b2a9/6e269f1e-efea-43c6-a43c-5fada8e8e8c4"
+					(reference "TP78")
 					(unit 1)
 				)
 			)
@@ -22902,6 +23062,71 @@
 			(project ""
 				(path "/dc046988-c317-47ca-93b7-9d067843b2a9/6e269f1e-efea-43c6-a43c-5fada8e8e8c4"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 367.03 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9e5d4ce-3107-41f0-9303-c9233aa182ca")
+		(property "Reference" "TP80"
+			(at 373.38 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 370.332 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:TP_0.6mm"
+			(at 367.03 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 367.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48850337-0aa7-4bbe-92d9-05799722ab57")
+		)
+		(instances
+			(project "FOCDriver"
+				(path "/dc046988-c317-47ca-93b7-9d067843b2a9/6e269f1e-efea-43c6-a43c-5fada8e8e8c4"
+					(reference "TP80")
 					(unit 1)
 				)
 			)
